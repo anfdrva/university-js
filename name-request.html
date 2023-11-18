@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Запит ім'я</title>
+  </head>
+  <body>
+    <script>
+      function askForName() {
+        var name = prompt("Будь ласка, введіть своє ім'я:");
+        if (name) {
+          alert("Ваше ім'я: " + name);
+        } else {
+          alert("Ви не ввели ім'я.");
+        }
+      }
+      window.onload = askForName;
+    </script>
+  </body>
+</html>
